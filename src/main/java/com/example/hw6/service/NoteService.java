@@ -3,12 +3,7 @@ package com.example.hw6.service;
 import com.example.hw6.domain.Note;
 import com.example.hw6.repository.NoteRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-
-import javax.swing.text.html.Option;
 import java.util.List;
 import java.util.Optional;
 
